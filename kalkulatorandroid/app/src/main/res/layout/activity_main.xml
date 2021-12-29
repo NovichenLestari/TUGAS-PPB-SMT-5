@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtBil1"
+        android:layout_width="401dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <RadioGroup
+        android:id="@+id/Tambah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBil1"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radTambah"
+            android:layout_width="93dp"
+            android:layout_height="27dp"
+            android:text="Tambah"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="112dp" />
+
+        <RadioButton
+            android:id="@+id/radKurang"
+            android:layout_width="85dp"
+            android:layout_height="29dp"
+            android:text="Kurang"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="112dp" />
+
+        <RadioButton
+            android:id="@+id/radKali"
+            android:layout_width="76dp"
+            android:layout_height="27dp"
+            android:text="Kali"
+            tools:ignore="DuplicateIds"
+            tools:layout_editor_absoluteX="217dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <RadioButton
+            android:id="@+id/radBagi"
+            android:layout_width="81dp"
+            android:layout_height="25dp"
+            android:text="Bagi"
+            tools:layout_editor_absoluteX="309dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txtBil2"
+        android:layout_width="405dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="196dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:text="Hitung"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/txtViewhasil1"
+        android:layout_width="385dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:hint="Hasil Hitung"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHitung"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="History"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewhasil1"
+        app:layout_constraintVertical_bias="0.034" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
