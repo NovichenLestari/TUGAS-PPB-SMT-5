@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "362647645349",
+    "project_id": "ovqat1234",
+    "storage_bucket": "ovqat1234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362647645349:android:697e93d7310f39e760f14c",
+        "android_client_info": {
+          "package_name": "id.nesd.ovqat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362647645349-vtfuvn50k6ktfl7noi3ctma5nicci09v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD49SYzOMadWNjEkk8FXX__KaufWkE1XXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362647645349-vtfuvn50k6ktfl7noi3ctma5nicci09v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

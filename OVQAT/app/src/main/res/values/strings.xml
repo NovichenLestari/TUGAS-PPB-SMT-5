@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OVQAT</string>
+    <string name="nama">Novichen Lestari Titis Asmoro</string>
+    <string name="nim">A11.2019.12032</string>
+    <string name="tentang">Tentang</string>
+    <string name="tim">Dibuat oleh: Novichen Lestari Titis Asmoro - A11.2019.12032</string>
+    <string name="cpright">©2022</string>
+    <string name="login">Login</string>
+    <string name="regis">Register</string>
+    <string name="regis_here"><u>Register Here!</u></string>
+    <string name="n_lgkp">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="uname">Username</string>
+    <string name="pass">Password</string>
+    <string name="home">Beranda</string>
+    <string name="order">Pesanan</string>
+    <string name="order_history">Riwayat Pesanan</string>
+    <string name="account">Akun</string>
+    <string name="logout">Logout</string>
+    <string name="pesan">Pesan</string>
+</resources>
